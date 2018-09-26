@@ -40,9 +40,9 @@ namespace ConsoleApp1
 
         public static void ByteOparation(byte a, byte b)
         {
-            int c = a + b;
-            int k = a - b;
-            int d = a * b;
+            byte c = (byte)(a + b);
+            byte k = (byte)(a - b);
+            byte d =(byte) (a * b);
 
             Console.WriteLine("a+b=" + c);
             Console.WriteLine("a-b=" + k);
@@ -50,7 +50,7 @@ namespace ConsoleApp1
 
             if (b != 0)
             {
-                float f =(float) a / b;
+                byte f =(byte)( a / b);
                 Console.WriteLine("a/b=" + f);
             }
             else
@@ -59,5 +59,6 @@ namespace ConsoleApp1
             }
         }
 
+       
     }
 }
